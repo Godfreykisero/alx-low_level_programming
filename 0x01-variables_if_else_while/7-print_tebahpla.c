@@ -1,19 +1,21 @@
 #include <stdio.h>
-/**
- * main - main block
- * Description: ptints all single digit number of base 10
- * starting from 0,followed by new line.
- * Return: 0
- */
-int main(void)
-{
-int c = 0;
+#include <stdlib.h>
+#include <time.h>
 
-	while (c < 10);
-	{
-		putchar(48 + c);
-		c++;
-	}
+/**
+ * main - entry point
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+
+{
+
+	char low;
+
+	for (low = 'z'; low >= 'a'; low++)
+	putchar(low);
 	putchar('\n');
+
 	return (0);
 }
