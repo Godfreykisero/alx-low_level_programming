@@ -1,20 +1,25 @@
 #include <stdio.h>
-/**
- * main - main block
- * Description: get a random number and check its
- * Return: 0
- */
-int main(void)
-{
-	char c = 'a';
+#include <stdlib.h>
+#include <time.h>
 
-	while (c <= 'z')
+/**
+ * main - entry point
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+
+{
+
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (c != 'e' && c != 'q')
-		{
-			pitchar(c);
-		}
-		c++;
+	if (low != e && low != q)
+	putchar(low);
 	}
 	putchar('\n');
 	return (0);
