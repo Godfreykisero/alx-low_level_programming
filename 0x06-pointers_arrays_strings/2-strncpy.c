@@ -2,14 +2,12 @@
 
 /**
  * _strncpy - copy a string
- * @dset: input value
+ * @dest: input value
  * @src: input value
  * @n: input value
  * Return: dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
-
 {
 	int j;
 
