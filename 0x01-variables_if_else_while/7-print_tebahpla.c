@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * 8main - Entry point
+ * main - Entry point
  * Return: Always 0 (success)
  */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	char low;
 
-	for (low = 'z'; low >= 'a'; low++)
+	for (low = 'z'; low >= 'a'; low--)
 	putchar(low);
 	putchar('\n');
 
