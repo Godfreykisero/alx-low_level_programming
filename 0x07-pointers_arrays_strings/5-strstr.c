@@ -5,7 +5,7 @@
  * _strstr - entry point
  * @haystack: input
  * @needle: input
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 char *_strstr(char *needle, char *haystack)
 {
