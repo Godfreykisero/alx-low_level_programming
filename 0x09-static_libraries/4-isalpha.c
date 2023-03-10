@@ -6,5 +6,5 @@
 
 int _isalpha(int c)
 {
-	return abs(0);
+	return abs(c);
 }
